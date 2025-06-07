@@ -169,6 +169,7 @@ export {
     meta,
     dataabout,
     dataportfolio,
+    AI,
     worktimeline,
     skills,
     services,
