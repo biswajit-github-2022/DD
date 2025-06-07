@@ -34,7 +34,7 @@ export const Portfolio = () => {
         </div> */}
         <div class="header">Curriculam Vieta</div>
         <div className="mb-5 po_items_ho">
-          {cv.map((data, i) => {
+          {dataportfolio.map((data, i) => {
             return (
               <div key={i} className="po_item">
                 <img src={data.img} alt="" />
