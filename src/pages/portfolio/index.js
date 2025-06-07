@@ -19,7 +19,7 @@ export const Portfolio = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
-        <div className="mb-5 po_items_ho">
+        {/* <div className="mb-5 po_items_ho">
           {dataportfolio.map((data, i) => {
             return (
               <div key={i} className="po_item">
@@ -27,6 +27,21 @@ export const Portfolio = () => {
                 <div className="content">
                   <p>{data.description}</p>
                   <a href={data.link}>view project</a>
+                </div>
+              </div>
+            );
+          })}
+        </div> */}
+        <div class="header">Curriculam Vieta</div>
+        <div className="mb-5 po_items_ho">
+          {cv.map((data, i) => {
+            return (
+              <div key={i} className="po_item">
+                <img src={data.img} alt="" />
+                <div className="content">
+                  <h2>{data.header}</h2>
+                  <p>{data.description}</p>
+                  <a href={data.link}>View & Download</a>
                 </div>
               </div>
             );
